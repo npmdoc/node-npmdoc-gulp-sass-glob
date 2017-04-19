@@ -1,9 +1,14 @@
-# api documentation for  [gulp-sass-glob (v1.0.8)](https://github.com/tomgrooffer/gulp-sass-glob#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-sass-glob.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-sass-glob) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-sass-glob.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-sass-glob)
+# npmdoc-gulp-sass-glob
+
+#### api documentation for  [gulp-sass-glob (v1.0.8)](https://github.com/tomgrooffer/gulp-sass-glob#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-sass-glob.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-sass-glob) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-sass-glob.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-sass-glob)
+
 #### Gulp task to use glob imports in your sass/scss files.
 
-[![NPM](https://nodei.co/npm/gulp-sass-glob.png?downloads=true)](https://www.npmjs.com/package/gulp-sass-glob)
+[![NPM](https://nodei.co/npm/gulp-sass-glob.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-sass-glob)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-sass-glob/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-sass-glob_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-sass-glob/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-sass-glob/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-sass-glob/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-sass-glob/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-sass-glob/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-sass-glob/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Mike Vercoelen",
-        "email": "mike.vercoelen@gmail.com"
+        "name": "Mike Vercoelen"
     },
     "bugs": {
         "url": "https://github.com/tomgrooffer/gulp-sass-glob/issues"
@@ -64,13 +68,11 @@
     "main": "./dist/index.js",
     "maintainers": [
         {
-            "name": "mikevercoelen",
-            "email": "mike.vercoelen@gmail.com"
+            "name": "mikevercoelen"
         }
     ],
     "name": "gulp-sass-glob",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://tomgrooffer@github.com/tomgrooffer/gulp-sass-glob.git"
@@ -87,16 +89,6 @@
     "version": "1.0.8"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-sass-glob](#apidoc.module.gulp-sass-glob)
-
-
-
-# <a name="apidoc.module.gulp-sass-glob"></a>[module gulp-sass-glob](#apidoc.module.gulp-sass-glob)
 
 
 

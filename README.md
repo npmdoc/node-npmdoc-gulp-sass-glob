@@ -21,11 +21,34 @@
 ```json
 
 {
-    "author": {
-        "name": "Mike Vercoelen"
+    "name": "gulp-sass-glob",
+    "version": "1.0.8",
+    "description": "Gulp task to use glob imports in your sass/scss files.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://tomgrooffer@github.com/tomgrooffer/gulp-sass-glob.git"
     },
+    "keywords": [
+        "gulp",
+        "sass",
+        "glob",
+        "gulpplugin"
+    ],
+    "author": "Mike Vercoelen <mike.vercoelen@gmail.com>",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/tomgrooffer/gulp-sass-glob/issues"
+    },
+    "homepage": "https://github.com/tomgrooffer/gulp-sass-glob#readme",
+    "main": "./dist/index.js",
+    "scripts": {
+        "compile": "babel -d dist/ src/",
+        "prepublish": "npm run compile",
+        "start": "npm run compile && node dist/index.js",
+        "test": "mocha --compilers js:babel-register",
+        "lint": "eslint .",
+        "lint-fix": "eslint . --fix",
+        "prepush": "npm run lint && npm run test"
     },
     "dependencies": {
         "glob": "^7.1.1",
@@ -33,7 +56,6 @@
         "slash": "^1.0.0",
         "through2": "^2.0.3"
     },
-    "description": "Gulp task to use glob imports in your sass/scss files.",
     "devDependencies": {
         "babel-cli": "^6.18.0",
         "babel-eslint": "^7.1.1",
@@ -50,43 +72,7 @@
         "husky": "^0.11.9",
         "mocha": "^3.2.0",
         "vinyl-fs": "^2.4.4"
-    },
-    "directories": {},
-    "dist": {
-        "shasum": "3b737ecebc9e6c106b82574c6faa9314bd94aeaa",
-        "tarball": "https://registry.npmjs.org/gulp-sass-glob/-/gulp-sass-glob-1.0.8.tgz"
-    },
-    "gitHead": "13562a52ea2e496af1ac126b39dbfdc18fd8113f",
-    "homepage": "https://github.com/tomgrooffer/gulp-sass-glob#readme",
-    "keywords": [
-        "gulp",
-        "sass",
-        "glob",
-        "gulpplugin"
-    ],
-    "license": "MIT",
-    "main": "./dist/index.js",
-    "maintainers": [
-        {
-            "name": "mikevercoelen"
-        }
-    ],
-    "name": "gulp-sass-glob",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://tomgrooffer@github.com/tomgrooffer/gulp-sass-glob.git"
-    },
-    "scripts": {
-        "compile": "babel -d dist/ src/",
-        "lint": "eslint .",
-        "lint-fix": "eslint . --fix",
-        "prepublish": "npm run compile",
-        "prepush": "npm run lint && npm run test",
-        "start": "npm run compile && node dist/index.js",
-        "test": "mocha --compilers js:babel-register"
-    },
-    "version": "1.0.8"
+    }
 }
 ```
 
